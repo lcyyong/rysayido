@@ -11,3 +11,13 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.buttonBorder {
+    background-color: Transparent;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

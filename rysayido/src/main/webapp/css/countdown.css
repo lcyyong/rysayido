@@ -12,14 +12,14 @@ ul.countdown li {
 }
 
 ul.countdown li span {
-	font-size: 4vw;
+	font-size: 3vw;
 	font-weight: 300;
 	line-height: 2.6vw;
 }
 
 ul.countdown li.seperator {
-	font-size: 4vw;
-	line-height: 4.1vw;
+	font-size: 3vw;
+	line-height: 3.1vw;
 	vertical-align: top;
 }
 

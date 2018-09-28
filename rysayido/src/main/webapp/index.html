@@ -58,27 +58,27 @@
       </div>
     </nav>
 
-    <header class="masthead text-white d-flex" style="min-height:50vw;">
+    <header class="masthead text-center text-white d-flex" style="min-height:65vw;">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-12 mx-auto">
-              <label style="font-family:'sans-serif';font-size:4vw; margin-top:30vw; margin-left:38vw;">0 9 | M A R | 2 0 1 9 </label>
-			<ul class="countdown" style="margin-left:40vw; margin-top:2vw;">
+              <label style="font-family:'sans-serif';font-size:2.5vw; margin-top:15vw; margin-bottom:0vw; ">0 9 | M A R | 2 0 1 9 </label>
+			<ul class="countdown" style=" ">
 				<li>
 					<span class="days">00</span>
 					<p class="days_ref" style="color:#ffffff; ">Days</p>
 				</li>
-				<li class="seperator">.</li>
+				<li class="seperator"></li>
 				<li>
 					<span class="hours">00</span>
 					<p class="hours_ref" style="color:#ffffff; ">Hours</p>
 				</li>
-				<li class="seperator">:</li>
+				<li class="seperator"></li>
 				<li>
 					<span class="minutes">00</span>
 					<p class="minutes_ref" style="color:#ffffff; ">Minutes</p>
 				</li>
-				<li class="seperator">:</li>
+				<li class="seperator"></li>
 				<li>
 					<span class="seconds">00</span>
 					<p class="seconds_ref" style="color:#ffffff; ">Seconds</p>
@@ -91,148 +91,153 @@
         </div>
       </div>
     </header>
-
-    <section class="" id="aboutUs">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading ">Our Story</h2>
-            <hr class="light my-4">
-            <p class="mb-4">Description</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#event">Event</a>
-          </div>
-        </div>
-      </div>
-    </section>
 	
-	<section id="photo" style="background: url('img/wedding/background2.JPG'); background-size:contain; background-repeat:no-repeat; background-position: center center;">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Gallery</h2>
-            <div class="row">
-				<div id="galleryDiv" class="row"></div>
-			</div>
-          </div>
-        </div>
-        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="max-height:100%; ">
-            <div class="modal-dialog modal-lg" style="max-width:500px; max-height:700px; ">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="image-gallery-title"></h4>
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
-                        </button>
-
-                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!--div for background -->
+	<div style="background: url('img/wedding/background_all.JPG'); background-size:contain; background-repeat:repeat-y; background-position: center center;">
+	    <section class="" id="aboutUs">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-lg-8 mx-auto text-center">
+	            <h2 class="section-heading ">Our Story</h2>
+	            <hr class="light my-4">
+	            <p class="mb-4">Description</p>
+	            <a class="btn btn-light btn-xl js-scroll-trigger" href="#event">Event</a>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+		
+		<section id="photo" >
+	        <div class="row">
+	          <div class="col-lg-8 mx-auto text-center">
+	            <h2 class="section-heading">Me & You</h2>
+	            <div class="row">
+					<div id="galleryDiv" class="row"></div>
+				</div>
+	          </div>
+	        </div>
+	        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="max-height:100%; ">
+	            <div class="modal-dialog modal-lg" style="max-width:500px; max-height:700px; ">
+	                <div class="modal-content">
+	                    <div class="modal-header">
+	                        <h4 class="modal-title" id="image-gallery-title"></h4>
+	                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+	                        </button>
+	                    </div>
+	                    <div class="modal-body">
+	                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+	                    </div>
+	                    <div class="modal-footer">
+	                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+	                        </button>
 	
-    <section id="event">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Event Details</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-	  <div class="row col-sm-12">
-		  <div class="container col-sm-6 center">
-			  <div class="text-center">
-				<div class="mx-auto">
-				  <h3 class="mb-3">Melaka Dinner</h3>
-				  <p>MING HAO Banquet & Restaurant Sdn Bhd, Taman Cheng Utama, 75260 Malacca</p>		  
-				  <div id="map"></div>
-				  <a target="_blank" href="https://www.google.com/maps/place/MING+HAO+Banquet+%26+Restaurant+Sdn+Bhd/@2.2608462,102.2199713,17z/data=!3m1!4b1!4m5!3m4!1s0x31d1fa9077183649:0xd252f0c8d39f10d2!8m2!3d2.2608408!4d102.22216">click here to open map</a>
-				  <br>
-				  <!-- <a class="btn btn-light btn-xl js-scroll-trigger col-sm-12" href="#rsvp" onclick="goMelaka()">go</a> -->
-				</div>
+	                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+	                        </button>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+		
+	    <section id="event">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-lg-12 text-center">
+	            <h2 class="section-heading">Please Join Us</h2>
+	            <hr class="my-4">
+	          </div>
+	        </div>
+	      </div>
+		  <div class="row col-sm-12">
+			  <div class="container col-sm-6 center">
+				  <div class="text-center">
+					<div class="mx-auto">
+					  <h3 class="mb-3">Melacca Banquet</h3>
+					  <p>MING HAO Banquet & Restaurant Sdn Bhd, Taman Cheng Utama, 75260 Malacca</p>		  
+					  <div id="map"></div>
+					  <a target="_blank" href="https://www.google.com/maps/place/MING+HAO+Banquet+%26+Restaurant+Sdn+Bhd/@2.2608462,102.2199713,17z/data=!3m1!4b1!4m5!3m4!1s0x31d1fa9077183649:0xd252f0c8d39f10d2!8m2!3d2.2608408!4d102.22216">
+					  Take Me There
+					  </a>
+					  <br>
+					  <a class="btn btn-light btn-xl js-scroll-trigger col-sm-2" href="#rsvp" onclick="goMelaka()">RSVP</a> 
+					</div>
+				  </div>
 			  </div>
+			  <!-- <div class="container col-sm-6">
+				  <div class=" text-center">
+					<div class=" mx-auto">
+					  <h3 class="mb-3">Johor Bahru Dinner</h3>	
+					  <p>PTD6510, Jalan Bunga Kertas 1, 81000 Kulai, Johor</p>		  
+					  <div id="map2"></div>
+					  <a target="_blank" href="https://www.google.com/maps/place/Cathay+Restaurant/@1.661325,103.5841725,17.26z/data=!4m8!1m2!2m1!1sCathay+Restaurant!3m4!1s0x31da790005e066e1:0x1553b7198d14bfe9!8m2!3d1.661259!4d103.5840121">click here to open map</a>
+					  <br>
+					  <a class="btn btn-light btn-xl js-scroll-trigger col-sm-12" href="#rsvp" onclick="goJb()">go</a>
+					</div>
+				  </div>
+			  </div> -->
 		  </div>
-		  <div class="container col-sm-6">
-			  <div class=" text-center">
-				<div class=" mx-auto">
-				  <h3 class="mb-3">Johor Bahru Dinner</h3>	
-				  <p>PTD6510, Jalan Bunga Kertas 1, 81000 Kulai, Johor</p>		  
-				  <div id="map2"></div>
-				  <a target="_blank" href="https://www.google.com/maps/place/Cathay+Restaurant/@1.661325,103.5841725,17.26z/data=!4m8!1m2!2m1!1sCathay+Restaurant!3m4!1s0x31da790005e066e1:0x1553b7198d14bfe9!8m2!3d1.661259!4d103.5840121">click here to open map</a>
-				  <br>
-				  <!-- <a class="btn btn-light btn-xl js-scroll-trigger col-sm-12" href="#rsvp" onclick="goJb()">go</a> -->
-				</div>
-			  </div>
-		  </div>
-	  </div>
-    </section>
-
-    <section id="rsvp" style="background: url('img/wedding/background3.JPG'); max-height:max-content; max-width:100%; height:auto; width:auto; background-repeat:no-repeat; background-position: 40% 50%;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h1 class="section-heading">RSVP</h1>
-            <div class="container-fluid">
-				<div class="container">
-					<div class="formBox">
-						<form id="rsvpForm" name="rsvpForm" class="form-horizontal">
-							<div class="row col-sm-12 form-group">
-								<label for="fullName" class="label col-sm-6" >CHINESE NAME 姓名: </label>
-								<input type="text" id="fullName" name="fullName" placeholder="中文全名" class="input form-control col-sm-6">
-							</div>
-							<div class="row col-sm-12 form-group">
-								<label for="contactNo" class="label col-sm-6" >CONTACT NO 电话: </label>
-								<input type="text" id="contactNo" name="contactNo" placeholder="手机号码" class="input form-control col-sm-6">
-							</div>
-							<div class="row col-sm-12 form-group">
-								<label class="label col-sm-6" >YOU ARE A GUEST OF : </label>
-								
-								<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
-									<label class="btn btn-secondary active">
-										<input type="radio" name="guessOf" autocomplete="off" value="Groom" checked> Groom 男方
-									</label>
-									<label class="btn btn-secondary">
-										<input type="radio" name="guessOf" autocomplete="off" value="Bride" > Bride 女方
-									</label>
+	    </section>
+	
+	    <section id="rsvp">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-lg-8 mx-auto text-center">
+	            <h1 class="section-heading">RSVP</h1>
+	            <div class="container-fluid">
+					<div class="container">
+						<div class="formBox">
+							<form id="rsvpForm" name="rsvpForm" class="form-horizontal">
+								<div class="row col-sm-12 form-group">
+									<label for="fullName" class="label col-sm-6" >Chinese Name: </label>
+									<input type="text" id="fullName" name="fullName" placeholder="中文全名" class="input form-control col-sm-6">
 								</div>
-								
-							</div>
-							<div class="row col-sm-12 form-group">
-								<label class="label col-sm-6" >CHOICE OF MENU 菜单: </label>
-								<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
-									<label class="btn btn-secondary active">
-										<input type="radio" name="choiceMenu" autocomplete="off" value="Normal" checked> Normal 肉
-									</label>
-									<label class="btn btn-secondary">
-										<input type="radio" name="choiceMenu" autocomplete="off" value="Vegetarian" > Vegetarian 栽
-									</label>
+								<div class="row col-sm-12 form-group">
+									<label for="contactNo" class="label col-sm-6" >Contact No.: </label>
+									<input type="text" id="contactNo" name="contactNo" placeholder="手机号码" class="input form-control col-sm-6">
 								</div>
-							</div>
-							<div class="row col-sm-12 form-group">
-								<label class="label col-sm-6" >PARTNERS : </label>
-								<input id="partnersNo" type="number" name="partnersNo" value="0" class="input form-control col-sm-6">
-							</div>
-							<div id="partnerNameDiv" class="row col-sm-12 form-group"></div>
-							<div class="row">
-								<div class="col-sm-12">
-									<input type="button" name="submitBtn" class="btn btn-default" value="Submit" onclick="submitRsvp()">
+								<div class="row col-sm-12 form-group">
+									<label class="label col-sm-6" >You Are A Guess Of : </label>
+									
+									<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
+										<label class="btn btn-secondary buttonBorder active">
+											<input type="radio" name="guessOf" autocomplete="off" value="Groom" checked> Groom 新郎
+										</label>
+										<label class="btn btn-secondary buttonBorder">
+											<input type="radio" name="guessOf" autocomplete="off" value="Bride" > Bride 新娘
+										</label>
+									</div>
+									
 								</div>
-							</div>
-						</form>
+								<div class="row col-sm-12 form-group">
+									<label class="label col-sm-6" >Choice Of Menu 菜单: </label>
+									<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
+										<label class="btn btn-secondary buttonBorder active">
+											<input type="radio" name="choiceMenu" autocomplete="off" value="Non-Vegetarian" checked> Non-Vegetarian 非素食
+										</label>
+										<label class="btn btn-secondary buttonBorder">
+											<input type="radio" name="choiceMenu" autocomplete="off" value="Vegetarian" > Vegetarian 素食
+										</label>
+									</div>
+								</div>
+								<div class="row col-sm-12 form-group">
+									<label class="label col-sm-6" >PARTNERS : </label>
+									<input id="partnersNo" type="number" name="partnersNo" value="0" class="input form-control col-sm-6">
+								</div>
+								<div id="partnerNameDiv" class="row col-sm-12 form-group"></div>
+								<div class="row">
+									<div class="col-sm-12">
+										<input type="button" name="submitBtn" class="btn btn-default" value="Submit" onclick="submitRsvp()">
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
-			</div>
-          </div>
-        </div>
-      </div>
-    </section>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+	</div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
