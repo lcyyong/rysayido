@@ -20,7 +20,7 @@
             map: map
         });
 		
-		map2 = new google.maps.Map(document.getElementById('map2'), {
+		/*map2 = new google.maps.Map(document.getElementById('map2'), {
 			center: {lat: 1.661325, lng: 103.5841725},
 			zoom: 17
 		});
@@ -28,7 +28,7 @@
 		var marker2 = new google.maps.Marker({
             position: new google.maps.LatLng(1.661325, 103.5841725),
             map: map2
-        });
+        });*/
 	}
 	
 	var partnerName = [];
@@ -69,8 +69,10 @@
 		var myform = $('#rsvpForm');
 		
 		if(check()){
+			onloading("rsvpSubmit");
 			$.post('/index', myform.serialize(), function(data) {
-				alert("Thanks! ");
+				endLoading("rsvpSubmit");
+				alert("Thank You for Joining Us. See U on 9th Mar 2019!");
 			});
 		}
 		
@@ -139,7 +141,7 @@
 		$('#galleryDiv').html("");
 		var content = "";
 		for (i=0;i<imgSrc.length;i++){
-				content+='<div class="col-lg-3 col-md-4 col-4 thumb">';
+				content+='<div class="col-lg-3 col-md-3 col-6 thumb">';
 				content+='		<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="'+imgSrc[i]+'" data-target="#image-gallery">';
 				content+='			<img class="img-thumbnail" src="'+imgSrc[i]+'" alt="Another alt text" onContextMenu="return false;">';
 				content+='		</a>';
@@ -147,3 +149,12 @@
 		}
 		$('#galleryDiv').html(content);
 	}
+	
+	function onloading(id){
+		$("#"+id).button("loading");
+	}
+	
+	function endLoading(id){
+		$("#"+id).button('reset');
+	}
+	

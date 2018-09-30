@@ -26,6 +26,7 @@
 	<link type="text/css" rel="stylesheet" media="screen" href="css/jquery-sakura.min.css" />
 	<link type="text/css" rel="stylesheet" media="screen" href="css/map.css" />
 	<link type="text/css" rel="stylesheet" media="screen" href="css/common.css" />
+	<link type="text/css" rel="stylesheet" media="screen" href="css/stylesheet.css" />
   </head>
 
   <body id="page-top">
@@ -93,15 +94,20 @@
     </header>
 	
 	<!--div for background -->
-	<div style="background: url('img/wedding/background_all.JPG'); background-size:contain; background-repeat:repeat-y; background-position: center center;">
-	    <section class="" id="aboutUs">
+	<!--style="background:url('img/wedding/background_all.JPG') ; background-size:contain; background-repeat:repeat-y; background-position: center center;" -->
+	<div style="background-color:#fff2f5;">
+	    <section id="aboutUs">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-8 mx-auto text-center">
-	            <h2 class="section-heading ">Our Story</h2>
-	            <hr class="light my-4">
-	            <p class="mb-4">Description</p>
-	            <a class="btn btn-light btn-xl js-scroll-trigger" href="#event">Event</a>
+	            <h2 class="section-heading " style="font-family:JulesLove; ">Our Story</h2>
+	            <hr class="light my-4" style="border-color: transparent;">
+	            <h4 class="mb-4" style="font-family:'KaiTi', '楷体'; font-size:22px;">
+	            	在爱情里，也许我们一直期待着浪漫的一见钟情又或是难忘的轰轰烈烈。
+	            	<br>但是平凡的生活中，不期而遇的两个人其实也能创造属于自己的爱情故事。
+	            	<br>因为我们都不完美，所以我们更加需要彼此，且行且珍惜。 
+	            </h4>
+	            <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#event">Event</a> -->
 	          </div>
 	        </div>
 	      </div>
@@ -110,7 +116,7 @@
 		<section id="photo" >
 	        <div class="row">
 	          <div class="col-lg-8 mx-auto text-center">
-	            <h2 class="section-heading">Me & You</h2>
+	            <h2 class="section-heading" style="font-family:JulesLove; ">Me And You</h2>
 	            <div class="row">
 					<div id="galleryDiv" class="row"></div>
 				</div>
@@ -139,12 +145,12 @@
 	        </div>
 	    </section>
 		
-	    <section id="event">
+	    <section id="event" style="color:white; background:url('img/wedding/background_all.JPG') ; background-size:cover; background-repeat:repeat-y; background-position: center center;">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-12 text-center">
-	            <h2 class="section-heading">Please Join Us</h2>
-	            <hr class="my-4">
+	            <h2 class="section-heading" style="font-family:JulesLove; ">Please Join Us</h2>
+	            <hr class="my-4" style="border-color: transparent;">
 	          </div>
 	        </div>
 	      </div>
@@ -155,11 +161,11 @@
 					  <h3 class="mb-3">Melacca Banquet</h3>
 					  <p>MING HAO Banquet & Restaurant Sdn Bhd, Taman Cheng Utama, 75260 Malacca</p>		  
 					  <div id="map"></div>
-					  <a target="_blank" href="https://www.google.com/maps/place/MING+HAO+Banquet+%26+Restaurant+Sdn+Bhd/@2.2608462,102.2199713,17z/data=!3m1!4b1!4m5!3m4!1s0x31d1fa9077183649:0xd252f0c8d39f10d2!8m2!3d2.2608408!4d102.22216">
-					  Take Me There
-					  </a>
 					  <br>
-					  <a class="btn btn-light btn-xl js-scroll-trigger col-sm-2" href="#rsvp" onclick="goMelaka()">RSVP</a> 
+					  <a class="btn buttonBorder btn-xl js-scroll-trigger" style="color:white; " target="_blank" href="https://www.google.com/maps/place/MING+HAO+Banquet+%26+Restaurant+Sdn+Bhd/@2.2608462,102.2199713,17z/data=!3m1!4b1!4m5!3m4!1s0x31d1fa9077183649:0xd252f0c8d39f10d2!8m2!3d2.2608408!4d102.22216">
+					  	Take Me There
+					  </a>
+					  <!-- <a class="btn btn-light btn-xl js-scroll-trigger col-sm-2" href="#rsvp" onclick="goMelaka()">RSVP</a> --> 
 					</div>
 				  </div>
 			  </div>
@@ -178,11 +184,11 @@
 		  </div>
 	    </section>
 	
-	    <section id="rsvp">
+	    <section id="rsvp" style="background:url('img/wedding/background_all.JPG') ; background-size:cover; background-repeat:repeat-y; background-position: center center;">
 	      <div class="container">
 	        <div class="row">
-	          <div class="col-lg-8 mx-auto text-center">
-	            <h1 class="section-heading">RSVP</h1>
+	          <div class="col-lg-8 mx-auto text-center " style="color:white;">
+	            <h1 class="section-heading" style="font-family:JulesLove; ">RSVP</h1>
 	            <div class="container-fluid">
 					<div class="container">
 						<div class="formBox">
@@ -198,11 +204,11 @@
 								<div class="row col-sm-12 form-group">
 									<label class="label col-sm-6" >You Are A Guess Of : </label>
 									
-									<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
-										<label class="btn btn-secondary buttonBorder active">
-											<input type="radio" name="guessOf" autocomplete="off" value="Groom" checked> Groom 新郎
+									<div class="btn-group-toggle col-sm-6" data-toggle="buttons">
+										<label class="btn btn-secondary buttonBorder col-12" style="color:white;">
+											<input type="radio" name="guessOf" autocomplete="off" value="Groom"> Groom 新郎
 										</label>
-										<label class="btn btn-secondary buttonBorder">
+										<label class="btn btn-secondary buttonBorder col-12" style="color:white;">
 											<input type="radio" name="guessOf" autocomplete="off" value="Bride" > Bride 新娘
 										</label>
 									</div>
@@ -210,11 +216,11 @@
 								</div>
 								<div class="row col-sm-12 form-group">
 									<label class="label col-sm-6" >Choice Of Menu 菜单: </label>
-									<div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
-										<label class="btn btn-secondary buttonBorder active">
-											<input type="radio" name="choiceMenu" autocomplete="off" value="Non-Vegetarian" checked> Non-Vegetarian 非素食
+									<div class="btn-group-toggle col-sm-6" data-toggle="buttons">
+										<label class="btn btn-secondary buttonBorder col-12" style="color:white;">
+											<input type="radio" name="choiceMenu" autocomplete="off" value="Non-Vegetarian"> Non-Vegetarian 非素食
 										</label>
-										<label class="btn btn-secondary buttonBorder">
+										<label class="btn btn-secondary buttonBorder col-12" style="color:white;">
 											<input type="radio" name="choiceMenu" autocomplete="off" value="Vegetarian" > Vegetarian 素食
 										</label>
 									</div>
@@ -226,7 +232,7 @@
 								<div id="partnerNameDiv" class="row col-sm-12 form-group"></div>
 								<div class="row">
 									<div class="col-sm-12">
-										<input type="button" name="submitBtn" class="btn btn-default" value="Submit" onclick="submitRsvp()">
+										<input id="rsvpSubmit" type="button" name="submitBtn" class="btn buttonBorder btn-secondary" style="color:white;" value="Submit" onclick="submitRsvp()">
 									</div>
 								</div>
 							</form>
@@ -258,5 +264,8 @@
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf9_Vwe-8Lzwx8UySzxKKD033JtRFJUpo&callback=initMap&output=embed">
 </script>
   </body>
+
+<!-- online library -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
