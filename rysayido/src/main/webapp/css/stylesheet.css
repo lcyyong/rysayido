@@ -63,3 +63,21 @@
 	font-weight:normal;
 	font-style:normal;
 }
+
+@font-face {
+  font-family: 'ericaFont';
+  src: url('fonts/erika type.eot') format('embedded-opentype'),
+       url('fonts/erika type.woff') format('woff'),
+       url('fonts/erika type.ttf') format('truetype'),
+       url('fonts/erika type.svg') format('svg');
+}
+
+@font-face {
+	font-family:"Sacramento";
+	src:url("fonts/Sacramento-Regular.eot?") format("eot"),
+		url("fonts/Sacramento-Regular.woff") format("woff"),
+		url("fonts/Sacramento-Regular.ttf") format("truetype"),
+		url("fonts/Sacramento-Regular.svg") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}

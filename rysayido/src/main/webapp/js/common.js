@@ -55,7 +55,7 @@
 						partnerName.push("");	
 					}
 				}
-				appendStr += "<label class='label col-sm-6' for='pFullName"+i+"'>PARTNERS Name: </label>";
+				appendStr += "<label class='label col-sm-6' for='pFullName"+i+"'>Partner Name: </label>";
 				appendStr += "<input type='text' id='pFullName"+i+"' name='pFullName"+i+"' placeholder='中文全名' value='"+curPartName+"' onchange='setPartnerName("+i+",this.value);'  class='partName input form-control col-sm-6'>";
 			}
 			console.log(partnerName);
